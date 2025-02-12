@@ -1,8 +1,5 @@
-# Use the official Nginx image as the base
+# Use the official Nginx image
 FROM nginx:latest
-
-# Copy custom HTML files to Nginx web root
-COPY index.html /usr/share/nginx/html/
 
 # Expose port 80
 EXPOSE 80
